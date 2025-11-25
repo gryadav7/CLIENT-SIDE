@@ -1,10 +1,11 @@
 {
- 
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "./src",
     "paths": {
-      "@/*": ["./src/*"]
-    }
-  }
-  
+      "@/*": ["*"]
+    },
+    // Add this if you are using React 17+ JSX transform
+    "jsx": "react-jsx"
+  },
+  "include": ["src/**/*"]
 }
