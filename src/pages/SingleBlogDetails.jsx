@@ -1,4 +1,4 @@
-import Comment from "@/components/comment";
+import Comment from "../components/Comment";
 import CommentList from "@/components/CommentList";
 import Loading from "@/components/Loading";
 import { getEnv } from "@/helpers/getEnv";
